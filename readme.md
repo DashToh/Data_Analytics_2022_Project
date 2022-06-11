@@ -28,4 +28,4 @@ Team member:
 
 The dataset is retrieved from https://www.kaggle.com/datasets/mujinjo/stephen-curry-stats-20092021-in-nba. <br>
 
-However, we are going to add another column of boolean value to have True when he won and False when he lost in order to insert the record to the data of our model.
+However, we are going to add another column of boolean value to be True when he won and False when he lost in order to insert the record to the data of our model.
