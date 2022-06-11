@@ -1,6 +1,11 @@
-# Team number: 3_CPS 
+# Team: 3_CPS
 
-## NBA league
+Team member:
+- Toh Jin Hung  306075
+- Adam Witczak  306078
+
+## NBA 2022 Champion
+### NBA league
 
 - There are 30 teams in the NBA league and they are divided into East and West Conference (15 teams on each)
 
@@ -12,6 +17,15 @@
 
 <img src= "NBA2022_Playoff.png">
 
-Team member:
-- Toh Jin Hung  306075
-- Adam Witczak  306078
+## Task
+
+- There are only 2 teams left playing in the finals today (Golden State Warriors vs Boston Celtics)
+
+- Our task will be predicting if the ```Golden State Warriors``` that is the lead of star player ```Stephen Curry``` will win the series and win championship 
+
+- There is one dataset:
+    1. The career stats of Stephen Curry
+
+The dataset is retrieved from https://www.kaggle.com/datasets/mujinjo/stephen-curry-stats-20092021-in-nba. <br>
+
+However, we are going to add another column of boolean value to have True when he won and False when he lost in order to insert the record to the data of our model.
