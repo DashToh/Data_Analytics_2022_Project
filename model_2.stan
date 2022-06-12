@@ -18,6 +18,8 @@ model {
 
 generated quantities {
    real y;
+   vector [N] log_lik;
+   array [N] real y_hat;
    real series = binomial_rng(7, theta);
    if (series >= 4.0){
       series = 4;
@@ -25,4 +27,8 @@ generated quantities {
    }
    else
       y = 0;
+   for (j in 1:N) {
+        log_lik[j] = bernoulli_lpmf(game[j] | theta);
+        y_hat[j] = beta_rng(alpha, beta);
+   }
 }
