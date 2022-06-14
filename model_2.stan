@@ -10,8 +10,8 @@ parameters {
 }
 
 model {
-   alpha ~ normal(550, 50);
-   beta ~ normal(450, 50);
+   alpha ~ normal(600, 50);
+   beta ~ normal(400, 50);
    theta ~ beta(alpha, beta);
    game ~ bernoulli(theta);
 }
